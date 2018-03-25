@@ -11,5 +11,11 @@ public interface List<T> {
 	public Node<T> getLast();
 
 	public void printList();
+	
+	public Node<T> get(int i);
+	
+	public int getCount();
+	
+	public int getIndex(T nodeObj);
 
 }
